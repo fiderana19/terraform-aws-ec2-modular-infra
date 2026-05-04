@@ -33,25 +33,19 @@ The repository is organized into a main application caller and reusable modules:
 
 ### Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd terraform-aws-ec2-modular-infra/app
-   ```
-
-2. **Initialize Terraform:**
+1. **Initialize Terraform:**
    This will download the required providers and initialize the S3 backend.
    ```bash
    terraform init
    ```
 
-3. **Plan the infrastructure:**
+2. **Plan the infrastructure:**
    Review the resources that will be created.
    ```bash
    terraform plan
    ```
 
-4. **Apply changes:**
+3. **Apply changes:**
    Deploy the infrastructure to your AWS account.
    ```bash
    terraform apply
