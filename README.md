@@ -9,21 +9,6 @@ The project provisions the following AWS resources:
 * **Security Group**: Firewall rules to control inbound and outbound traffic.
 * **Elastic IP (EIP)**: A static IPv4 address associated with the EC2 instance for persistent access.
 
-## 📁 Project Structure
-
-The repository is organized into a main application caller and reusable modules:
-
-```text
-.
-├── app/
-│   └── main.tf          # Main execution entry point
-├── modules/
-│   ├── ec2/             # EC2 instance logic
-│   ├── eip/             # Elastic IP logic
-│   └── sg/              # Security Group logic
-└── .gitignore           # Files to exclude from Git
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites

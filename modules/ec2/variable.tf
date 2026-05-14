@@ -5,7 +5,10 @@ variable "maintainer" {
 
 variable "instance_type" {
   type = string
-  default = "t2.nano"
+}
+
+variable "AZ" {
+  type = string
 }
 
 variable "ssh_key" {
@@ -18,7 +21,11 @@ variable "sg_name" {
   default = "NULL"
 }
 
-variable "server_name" {
+variable "sg_id" {
+  type        = string
+}
+
+variable "name" {
   type = string
   default = "NULL"
 }
@@ -26,16 +33,6 @@ variable "server_name" {
 variable "public_ip" {
   type = string
   default = "NULL"
-}
-
-variable "projet_name" {
-  type = string
-  default = "ic-webapp"
-}
-
-variable "AZ" {
-  type = string
-  default = "us-east-1b"
 }
 
 variable "user" {
